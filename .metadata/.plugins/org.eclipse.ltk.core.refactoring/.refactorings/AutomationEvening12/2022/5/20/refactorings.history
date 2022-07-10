@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Rename package &apos;Automatuion&apos; to &apos;Automation&apos;&#x0D;&#x0A;- Original project: &apos;AutomationEvening12&apos;&#x0D;&#x0A;- Original element: &apos;AutomationEvening12/src/Automatuion&apos;&#x0D;&#x0A;- Renamed element: &apos;AutomationEvening12/src/Automation&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename package &apos;Automatuion&apos;" flags="589830" hierarchical="false" id="org.eclipse.jdt.ui.rename.package" input="/src&lt;Automatuion" name="Automation" qualified="false" references="true" stamp="1652190864201" textual="false" version="1.0"/>
-</session>
