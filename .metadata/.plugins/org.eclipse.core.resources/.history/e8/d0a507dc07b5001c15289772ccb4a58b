@@ -1,0 +1,20 @@
+package BasicJ;
+
+public class Modifier {
+	Modifier(){
+		System.out.println("This is Modifier class");
+	}
+	private int a = 10;
+	
+	private void test() {
+		System.out.println("I am Protected");
+	}
+	
+	public static void main(String[] args) {
+		Modifier obj = new Modifier();
+		obj.test();
+		System.out.println(obj.a);
+	}
+	
+	
+}

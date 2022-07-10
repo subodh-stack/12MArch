@@ -1,0 +1,20 @@
+package utility;
+
+import org.testng.ITestListener;
+import org.testng.ITestResult;
+
+public class Listeners implements ITestListener {
+	
+	public void onTestStart(ITestResult result) {
+		System.out.println(result.getName() +" Test has Started");
+	}
+	
+	public void onTestSuccess(ITestResult result) {
+		System.out.println(result.getName() + " Test passed");
+	}
+	
+	public void onTestFailure(ITestResult result) {
+		System.out.println(result.getName() +"Test failed");
+	}
+
+}

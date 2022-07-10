@@ -1,0 +1,31 @@
+package BasicJ;
+
+public class Cons {
+	
+	Cons(String name)//Parametrized constructor
+	{
+		System.out.println(name);
+	}
+	
+	int a =10;
+	
+	String b = "Velocity";
+	
+	public void test() {
+		System.out.println("Hello");
+	}
+	
+	
+	public static void main(String[] args) {
+		Cons obj = new Cons("Velocity");//default constructor
+		System.out.println(obj.a);
+		System.out.println(obj.b);
+		obj.test();
+		obj.test();
+		obj.test();
+		
+		
+		
+	}
+	
+}

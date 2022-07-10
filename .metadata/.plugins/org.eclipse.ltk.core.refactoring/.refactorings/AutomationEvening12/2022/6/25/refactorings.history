@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;Automation.KeyBorad&apos; to &apos;KeyBoard&apos;&#x0D;&#x0A;- Original project: &apos;AutomationEvening12&apos;&#x0D;&#x0A;- Original element: &apos;Automation.KeyBorad&apos;&#x0D;&#x0A;- Renamed element: &apos;Automation.KeyBoard&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;KeyBorad&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;Automation{KeyBorad.java[KeyBorad" matchStrategy="1" name="KeyBoard" qualified="false" references="true" similarDeclarations="false" stamp="1655128160930" textual="false" version="1.0"/>
+</session>

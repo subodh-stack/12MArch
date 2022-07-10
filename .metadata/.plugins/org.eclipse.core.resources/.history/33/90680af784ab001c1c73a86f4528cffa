@@ -1,0 +1,10 @@
+package Day1;
+
+public class Loops {
+public static void main(String[] args) {//print 100
+	int a =1;
+	
+	a++;//     //memory 1
+	System.out.println(a);//2 //2
+}
+}

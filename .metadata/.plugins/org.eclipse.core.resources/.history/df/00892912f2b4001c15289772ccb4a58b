@@ -1,0 +1,55 @@
+package BasicJ;
+
+public class Cons {
+	
+	Cons(String name)//Parametrized constructor
+	{
+		System.out.println(name);
+	}
+	
+	Cons()
+	{
+		System.out.println("Iam zero agrument");
+	}
+	
+	Cons(int a)
+	{
+		System.out.println("with int argument");
+	}
+	
+	Cons(int a, int b)
+	{
+		System.out.println("with two int argument");
+	}
+	
+	Cons(int a, String b)
+	{
+		
+	}
+	
+	Cons(String b , int a)
+	{
+		
+	}
+	
+	int a =10;
+	
+	String b = "Velocity";
+	
+	public void test() {
+		System.out.println("Hello");
+	}
+	
+	
+	public static void main(String[] args) {
+		Cons obj = new Cons();//default constructor
+		System.out.println(obj.a);
+		obj.test();
+		obj.test();
+		obj.test();
+		
+		
+		
+	}
+	
+}

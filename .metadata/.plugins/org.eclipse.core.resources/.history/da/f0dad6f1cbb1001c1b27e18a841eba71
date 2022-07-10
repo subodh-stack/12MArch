@@ -1,0 +1,17 @@
+package Day1;
+
+
+public class Test {
+	int a =20;
+	int b = 30;
+	String name = "Velocity";
+	String branch = "Katraj";
+	
+	public static void main(String[] args) {
+		Method obj = new Method();
+		obj.demo();
+	
+		
+	
+	}
+}

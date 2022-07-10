@@ -1,0 +1,44 @@
+package Advance;
+
+import java.util.ArrayList;
+import java.util.Iterator;
+import java.util.LinkedList;
+import java.util.Vector;
+
+public class Collection {
+	public static void main(String[] args) {
+//		ArrayList li = new ArrayList();
+//		li.add("Velocity");
+//		li.add(56);
+//		li.add('z');
+//		li.add(null);
+//		li.add(null);
+//		
+//		System.out.println(li.get(2));
+//		System.out.println(li.get(3));
+//   
+		//if we declare generi then it will be homogenous in nature
+//		LinkedList<Integer> li = new LinkedList<Integer>();
+//		li.add(654);
+//		li.add(45);
+//		li.add(45);
+//		
+//		System.out.println(li.get(2));
+		
+		Vector v = new Vector();
+		v.add("String");
+		v.add(454);
+		v.add(null);
+		
+		Iterator i = v.iterator();	
+		System.out.println(i.next());
+		
+		
+		
+		
+		
+		
+		
+		
+} 
+}

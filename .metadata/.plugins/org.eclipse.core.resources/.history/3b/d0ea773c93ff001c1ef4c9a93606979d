@@ -1,0 +1,32 @@
+package Advance;
+
+import java.util.ArrayList;
+import java.util.LinkedList;
+
+public class Collection {
+	public static void main(String[] args) {
+//		ArrayList li = new ArrayList();
+//		li.add("Velocity");
+//		li.add(56);
+//		li.add('z');
+//		li.add(null);
+//		li.add(null);
+//		
+//		System.out.println(li.get(2));
+//		System.out.println(li.get(3));
+		
+		LinkedList<Integer> li = new LinkedList<Integer>();
+		li.add(654);
+		li.add(45);
+		li.add(45);
+		
+		System.out.println(li.get(2));
+		
+		
+		
+		
+		
+		
+		
+} 
+}
